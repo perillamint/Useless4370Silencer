@@ -45,6 +45,8 @@ ETSI TS 123.041 에 따르면 MessageIdentifier 4370 은 다음과 같은 용도
 
 참고: 매우 당연하겠지만, 이 모듈은 AOSP 기준으로 작성되고 테스트 되었으며, Xposed 호환 훅 프레임워크를 필요로 합니다.
 
+참고2: 심 카드가 없을 때에는 `com.android.cellbroadcastservice` 에 Location 이 전달되지 않아, PLMN 필터가 쓰루됩니다.
+
 쓸모없는 메시지 타율 100% 를 자랑하는 MCC = 450, MessageIdentifier = 4370 을 가지고 수신되는 셀 브로드캐스트를 중복으로
 마킹합니다.
 
