@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Useless4370Silencer</string>
+    <string name="xposed_description">Ignore cell broadcast messages with MCC 450 and message identifier 4370.</string>
+</resources>
