@@ -62,6 +62,11 @@ ETSI TS 123.041 에 따르면 MessageIdentifier 4370 은 다음과 같은 용도
 이 LSPosed 모듈은 `com.android.cellbroadcastservice.CellBroadcastHandler::isDuplicate()` 에 훅을 걸어
 MCC = 450, MessageIdentifier = 4370 일 경우, 함수 리턴을 중복 여부와 상관 없이 true 로 리턴합니다.
 
+## 보너스: 더 간단한 방법
+
+해외 안 나갈 거면 ADB 켜고 `com.android.cellbroadcastservice` 앱을 비활성화 하세요. 이 모듈은 MCC 450 일 때만 셀 브로드캐스트를
+무시하기 위해 훅을 사용하지만, 단순히 경보 안 받고 싶으면 앱 비활성화 하면 끝납니다.
+
 ## 결론
 
 노프신 분들에게: 셀 브로드캐스트 4370 을 원래 목적 외의 용도로 오용하지 마세요. 뭐 늑대가 나타나서 모든 양을 먹어치우는 엔딩을
