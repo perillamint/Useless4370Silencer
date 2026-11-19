@@ -1,5 +1,7 @@
 # Useless 4370 Silencer
 
+![런승만](app/src/main/res/drawable-nodpi/ic_launcher_photo.webp)
+
 ## 면책 사항
 
 이 소프트웨어를 사용함으로서 발생되는 모든 피해에 대해 책임지지 않습니다. 애초에 풍자 소프트웨어인걸요.
